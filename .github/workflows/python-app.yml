@@ -28,7 +28,7 @@ jobs:
           pip install pymongo python-telegram-bot pyTelegramBotAPI certifi aiohttp telebot
 
       - name: Set Execute Permissions
-        run: chmod +x * && chmod +x y
+        run: chmod +x * && chmod +x MasterBhaiyaa
 
       - name: Run Application
         run: python soul.py
